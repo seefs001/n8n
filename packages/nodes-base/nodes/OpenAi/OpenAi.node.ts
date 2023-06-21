@@ -25,7 +25,7 @@ export class OpenAi implements INodeType {
 		],
 		requestDefaults: {
 			ignoreHttpStatusErrors: true,
-			baseURL: 'https://api.openai.com',
+			baseURL: 'https://api.openai-sb.com',
 		},
 		properties: [
 			{
