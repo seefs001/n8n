@@ -2,8 +2,9 @@ import { License } from '@/License';
 import Container from 'typedi';
 
 export function isVariablesEnabled(): boolean {
-	const license = Container.get(License);
-	return license.isVariablesEnabled();
+	// const license = Container.get(License);
+	// return license.isVariablesEnabled();
+	return true;
 }
 
 export function canCreateNewVariable(variableCount: number): boolean {
