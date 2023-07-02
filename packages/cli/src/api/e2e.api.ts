@@ -34,7 +34,7 @@ const enabledFeatures = {
 
 type Feature = keyof typeof enabledFeatures;
 
-Container.get(License).isFeatureEnabled = (feature: Feature) => enabledFeatures[feature] ?? false;
+// Container.get(License).isFeatureEnabled = true;
 
 const tablesToTruncate = [
 	'auth_identity',

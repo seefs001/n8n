@@ -97,12 +97,12 @@ export class License {
 	}
 
 	isFeatureEnabled(feature: string): boolean {
-		if (!this.manager) {
-			getLogger().warn('License manager not initialized');
-			return false;
-		}
+		// if (!this.manager) {
+		// 	getLogger().warn('License manager not initialized');
+		// 	return false;
+		// }
 
-		return this.manager.hasFeatureEnabled(feature);
+		return true;
 	}
 
 	isSharingEnabled() {

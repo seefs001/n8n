@@ -20,3 +20,7 @@ packages/**/.turbo
 cypress/videos/*
 cypress/screenshots/*
 *.swp
+a.out
+autorestart_zerotier.py
+n8n.log
+nohup.out

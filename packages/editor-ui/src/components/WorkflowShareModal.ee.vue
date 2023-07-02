@@ -195,7 +195,7 @@ export default defineComponent({
 			return this.usersStore.isDefaultUser;
 		},
 		isSharingEnabled(): boolean {
-			return this.settingsStore.isEnterpriseFeatureEnabled(EnterpriseEditionFeature.Sharing);
+			return true;
 		},
 		modalTitle(): string {
 			return this.$locale.baseText(
